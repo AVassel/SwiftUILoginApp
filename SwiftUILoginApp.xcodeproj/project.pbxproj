@@ -95,13 +95,13 @@
 			isa = PBXGroup;
 			children = (
 				3EC5C530296EE20000C0E045 /* SwiftUILoginAppApp.swift */,
+				3EC179CB2A1E1E0C007F5359 /* Views */,
 				3EC179CA2A1E1D3C007F5359 /* Models */,
 				3ED9254A29AE1F5C00FA2E12 /* Managers */,
-				3EC5C534296EE20200C0E045 /* Assets.xcassets */,
 				3EC5C536296EE20200C0E045 /* Preview Content */,
-				3EC179CB2A1E1E0C007F5359 /* Views */,
 				3EC179D02A1E2AC5007F5359 /* Modifiers */,
 				3EC5C544296F052000C0E045 /* TimeCounter.swift */,
+				3EC5C534296EE20200C0E045 /* Assets.xcassets */,
 			);
 			path = SwiftUILoginApp;
 			sourceTree = "<group>";

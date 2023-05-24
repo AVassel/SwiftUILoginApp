@@ -6,3 +6,7 @@
 //
 
 
+struct User: Codable {
+    var name = ""
+    var isRegistered = false
+}
