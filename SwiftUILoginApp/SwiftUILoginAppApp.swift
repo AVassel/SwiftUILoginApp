@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct SwiftUILoginAppApp: App {
+    private let user = DataManager.shader.load()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterView()
+                .environmentObject(UserManager(user: user))
         }
     }
 }
